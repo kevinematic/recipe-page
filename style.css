@@ -61,7 +61,32 @@ h6 {
 h1 {
   font-family: "Young Serif";
   font-size: 40px;
+  font-weight: 400;
   line-height: 100%;
   letter-spacing: 0;
 }
-/* Review these properties */
+
+h2 {
+  font-family: "Young Serif";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-family: "Outfit";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+span {
+  font-weight: 700;
+}
