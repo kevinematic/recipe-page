@@ -58,12 +58,37 @@ h6 {
   src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 
+/* Rose */
+:root {
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+}
+
+/* Stone */
+:root {
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+}
+
+/* Brown */
+:root {
+  --brown-800: #854632;
+}
+
+/* White */
+:root {
+  --white: #ffffff;
+}
+
 h1 {
   font-family: "Young Serif";
   font-size: 40px;
   font-weight: 400;
   line-height: 100%;
   letter-spacing: 0;
+  color: var(--stone-900);
 }
 
 h2 {
@@ -72,12 +97,14 @@ h2 {
   font-weight: 400;
   line-height: 100%;
   letter-spacing: 0;
+  color: var(--brown-800);
 }
 
 h3 {
   font-family: "Outfit";
   font-size: 20px;
   font-weight: 600;
+  color: var(--rose-800);
 }
 
 p {
@@ -85,6 +112,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+  color: var(--stone-600);
 }
 
 span {
