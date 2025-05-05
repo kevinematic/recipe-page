@@ -1,0 +1,48 @@
+/* START: Reset / Base styles */
+:where(*) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* avoids the "Times New Roman" fallback on form controls */
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; /* long words don't blow up your layout */
+}
+
+#root,
+#__next {
+  isolation: isolate;
+} /* keeps portal/popover z-index sane */
