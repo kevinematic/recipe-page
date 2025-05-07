@@ -1,3 +1,13 @@
+article {
+  margin: var(--spacing-500) var(--spacing-500) 0;
+}
+
+img {
+  width: 656px;
+  height: 300px;
+  border-radius: 12px;
+}
+
 h1 {
   font-family: "Young Serif";
   font-size: 40px;
@@ -5,7 +15,6 @@ h1 {
   line-height: 100%;
   letter-spacing: 0;
   color: var(--stone-900);
-  margin-top: var(--spacing-500);
 }
 
 h2 {
@@ -39,19 +48,18 @@ span {
   font-weight: 700;
 }
 
-article section ul,
-article section ol {
-  padding-left: 1.5em;
-}
-
 article section ul {
   list-style-type: disc;
 }
 
-article section ol {
-  list-style-type: decimal;
+article section.preparation li::marker {
+  color: var(--rose-800);
 }
 
-.intro {
-  margin: var(--spacing-300) 0 var(--spacing-400);
+article section.ingredients li::marker {
+  color: var(--brown-800);
+}
+
+article section ol {
+  list-style-type: decimal;
 }

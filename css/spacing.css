@@ -2,4 +2,36 @@
   --spacing-500: 40px;
   --spacing-400: 32px;
   --spacing-300: 24px;
+  --spacing-200: 16px;
+}
+
+h1 {
+  margin-top: var(--spacing-500);
+}
+
+article section ul,
+article section ol {
+  padding-left: 1.5em;
+}
+
+article section li {
+  padding-left: var(--spacing-200);
+}
+
+.intro {
+  margin: var(--spacing-300) 0 var(--spacing-400);
+}
+
+section.preparation {
+  padding: var(--spacing-300);
+}
+
+h2 {
+  margin-bottom: var(--spacing-300);
+}
+
+section.ingredients,
+section.instructions,
+section.nutrition {
+  margin-top: var(--spacing-400);
 }
