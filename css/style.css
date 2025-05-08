@@ -1,5 +1,5 @@
-article {
-  margin: var(--spacing-500) var(--spacing-500) 0;
+body {
+  background-color: var(--stone-100);
 }
 
 img {
@@ -62,4 +62,9 @@ article section.ingredients li::marker {
 
 article section ol {
   list-style-type: decimal;
+}
+
+main {
+  background-color: var(--white);
+  border-radius: 24px;
 }

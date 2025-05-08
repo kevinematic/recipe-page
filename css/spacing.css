@@ -35,3 +35,8 @@ section.instructions,
 section.nutrition {
   margin-top: var(--spacing-400);
 }
+
+main {
+  width: 736px;
+  padding: var(--spacing-500);
+}
