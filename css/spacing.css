@@ -37,6 +37,8 @@ section.nutrition {
 }
 
 main {
-  width: 736px;
+  max-width: 736px;
+  width: 100%;
   padding: var(--spacing-500);
+  margin: 0 auto;
 }

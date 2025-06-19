@@ -1,0 +1,40 @@
+.recipe-grid {
+  display: grid;
+  gap: var(--spacing-400);
+}
+
+@media (min-width: 48rem) {
+  .recipe-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "image header"
+      "image preparation"
+      "image ingredients"
+      "image instructions"
+      "image nutrition";
+  }
+
+  .recipe-grid img {
+    grid-area: image;
+  }
+
+  .recipe-grid .recipe-header {
+    grid-area: header;
+  }
+
+  .recipe-grid .preparation {
+    grid-area: preparation;
+  }
+
+  .recipe-grid .ingredients {
+    grid-area: ingredients;
+  }
+
+  .recipe-grid .instructions {
+    grid-area: instructions;
+  }
+
+  .recipe-grid .nutrition {
+    grid-area: nutrition;
+  }
+}

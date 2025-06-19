@@ -3,8 +3,9 @@ body {
 }
 
 img {
-  width: 656px;
-  height: 300px;
+  width: 100%;
+  height: auto;
+  max-width: 656px;
   border-radius: 12px;
 }
 
